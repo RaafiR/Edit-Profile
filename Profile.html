@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Design</title>
+    <link rel="stylesheet" href="C:\Users\raffe\OneDrive\Desktop\Internship\MeetMax Profile\Style.css">
+    <script src="https://kit.fontawesome.com/d1bf1bacdb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="title" class="headerItem">
+                <img src="C:\Users\raffe\OneDrive\Desktop\Internship\Meetmax Collab\Pictures\chat.png" alt="msg" id="titleImage">
+                <span id="titleText">Meetmax</span>
+            </div>
+            <div id="headerMid" class="headerItem">
+                <input type="text" id="headerSearch" placeholder="&#128269; Search for something here..."></input>
+            </div>
+            <div id="userSection" class="headerItem">
+                <span id="userText">Ishrat Afreen</span>
+                <img src="C:\Users\raffe\OneDrive\Desktop\Internship\MeetMax Profile\Pictures\user-pfp.jpg" alt="userPic" id="userImage">
+            </div>
+        </header>
+        <!-- This div contains both Nav Bars and middle content -->
+        <div id="mainContent">
+            <nav id="menu">
+                <ul id="menuList">
+                    <a href="#">
+                        <li> <i class="fa-solid fa-border-all"></i> Feed</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="fa-solid fa-user-group"></i> My Community</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-message"></i> Messages</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-bell"></i> Notification</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-globe"></i> Explore</li>
+                    </a>
+                    <a href="#">
+                        <li style="background-color: rgb(94, 96, 99); color:rgb(245, 247, 249); padding:4px; margin:-3px; border-radius: 10%;"><i class="fa-solid fa-user"></i> Profile</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-gear"></i> Settings</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div id="profile-edit">
+                <ul id="edit">
+                    <a href="#">
+                        <li> <i class="fa-regular fa-user"></i>  Edit Profile <i class="fa-solid fa-angle-right" id=current></i></li> 
+                    </a>
+                    <a href="#">
+                        <li> <i class="fa-solid fa-language"></i>  Language</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-regular fa-circle-xmark"></i>  Blocking</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-bell"></i>  Notification</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-shield"></i>  Password & Security</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-clock-rotate-left"></i>  Activity Log</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-regular fa-eye"></i>  Viewing & Sharing</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="edit-details">
+                <h4 style="color: rgb(71, 68, 68);">Edit Profile</h4><br>
+                    <img src="C:\Users\raffe\OneDrive\Desktop\Internship\MeetMax Profile\Pictures\user-pfp.jpg" alt="pfp" class="user-pfp">
+                <div class="table1">
+                    <table class="det">
+                        <form id="details">
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Full Name:</p><br><input type="text" placeholder="Ishrat" size="40px" style="margin-bottom: 20px; padding: 10px;" id="det-name">
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">Birthday:</p><br><input type="date" placeholder="05/20/1998" id="date"  style="width:298px; margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="det-bd">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Email:</p><br><input type="email" id="email" size="40px" placeholder="Ishrat@gmail.com" style="margin-bottom: 20px; padding: 10px;" id="det-email">
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">Bio:</p><br><input type="text" id="bio" size="40px" placeholder="Data Analyst" style="margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="det-bio">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Phone Number:</p><br><input type="tel" size="40px" placeholder="9676675829" style="margin-bottom: 20px; padding: 10px;" id="num">
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">Website:</p><br><input type="text" size="40px" placeholder="Ishrat/linkedin.com" style="margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="det-web">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Gender:</p><br>
+                                    <input type="radio" value="Male" style="margin-bottom: 20px; padding: 10px;" id="gen-m"> Male
+                                    <input type="radio" value="Female" style="margin-bottom: 20px; padding: 10px; margin-left: 20px;" id="gen-f" checked="checked"> Female
+                                    <input type="radio" value="Custom" style="margin-bottom: 20px; padding: 10px; margin-left: 20px;" id="gen-cus"> Custom
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">Location:</p><br><input type="text" size="40px" placeholder="Telengana" style="margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="det-loc">
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+                <div class="table2">
+                    <h4 style="color: rgb(71, 68, 68);">Social Links</h4><br>
+                    <table>
+                        <form id="sns">
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Facebook:</p><br><input type="text" size="40px" placeholder="Ishrat" style="margin-bottom: 20px; padding: 10px;" id="fb">
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">Twitter:</p><br><input type="text" placeholder="Ishrat20" size="40px" style="margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="twi">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="color: rgb(71, 68, 68);">Instagram:</p><br><input type="text" size="40px" placeholder="Ishrattt" style="margin-bottom: 20px; padding: 10px;" id="ig">
+                                </td>
+                                <td>
+                                    <p style="margin-left: 40px; color: rgb(71, 68, 68);">LinkedIn:</p><br><input type="text" size="40px" placeholder="IshratAfreen" style="margin-bottom: 20px; padding: 10px; margin-left: 40px;" id="link">
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
