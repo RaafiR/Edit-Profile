@@ -179,3 +179,10 @@ header {
 .table1{
     margin-bottom: 30px;
 }
+
+#rad-btn{
+    border: solid 1px #aca4a4;
+    padding-top: 9px;
+    padding-left: 10px;
+
+}
