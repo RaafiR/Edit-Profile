@@ -206,8 +206,25 @@ header {
 
 #rad-btn{
     margin-top: -10px;
-    border: solid 1px #989191;
+    border:1px solid #6b6666; 
+    border-radius: 6%;
     padding-top: 9px;
     padding-left: 10px;
-    border-radius: 2%;
+}
+
+#det-name, #det-bd, #det-email, #det-bio, #num, #det-web, #det-gen, #det-loc, #fb, #twi, #ig, #link{
+    color: rgb(71, 68, 68); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ph-num{
+    margin-left: 43px;
+}
+
+.code-select{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:45px;
+    border:1px solid #6b6666; 
+    border-radius: 19%;
 }
