@@ -181,8 +181,9 @@ header {
 }
 
 #rad-btn{
-    border: solid 1px #aca4a4;
+    margin-top: -10px;
+    border: solid 1px #989191;
     padding-top: 9px;
     padding-left: 10px;
-
+    border-radius: 2%;
 }
