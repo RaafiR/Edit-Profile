@@ -80,7 +80,6 @@ header {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     padding: 1.5rem;
     border-radius: 2%;
     width: 180px;
@@ -91,7 +90,7 @@ header {
     background-color: white;
     margin-left: -28px;
     margin-top: 78px;
-    padding: 2px;
+    padding: 5px;
     border-radius: 50%;
     border: 1px grey;
     
@@ -102,7 +101,6 @@ header {
 }
 
 #menuList a li {
-    color: grey;
     display: flex;
     gap: 0.3rem;
     font-size: 13px;
@@ -115,6 +113,27 @@ header {
 
 }
 
+#feed, #community, #msg, #notif, #exp, #settings, #logout {
+    color: grey;
+    margin-top:10px; 
+    margin-bottom:10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+}
+
+#profile{
+    background-color: rgb(94, 96, 99); 
+    color:rgb(248, 249, 250); 
+    color: #F3F3F3;
+    padding-left: 10px; 
+    border-radius: 8%;
+    margin-top:10px; 
+    margin-bottom:10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #edit {
     font-size: 12px;
     width: 220px;
@@ -125,7 +144,6 @@ header {
     gap: 1rem;
     padding: 1rem;
     border:0px;
-    border-right: solid #F3F3F3;
     border-left: solid #F3F3F3;
     border-top: solid #F3F3F3;
     border-radius: 1.5%;
@@ -146,18 +164,24 @@ header {
 
 #current{
     margin-top: 2px;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+#user-icon{
+    margin-top: 2px;
 }
 
 #edit-details{
     list-style-type: none;
     gap: 1rem;
     padding: 1rem;
-    border-right: solid #F3F3F3;
     border-left: solid #F3F3F3;
+    border-left-width: 1px;
+    border-right: solid #F3F3F3;
     border-top: solid #F3F3F3;
-    border-radius: 1%;
-    border-width: 30px;
+    border-top-right-radius: 1%;
+    border-right-width: 30px;
+    border-top-width: 30px;
     margin-left: -15px;
     margin-top: 5px;
     width:825px;
